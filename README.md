@@ -1,6 +1,6 @@
 # Landing
 
-A simple, responsive landing page ready to deploy on GitHub Pages.
+A Browny-inspired single-page portfolio landing ready to deploy on GitHub Pages.
 
 ## Local preview
 
