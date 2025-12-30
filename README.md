@@ -1,20 +1,20 @@
 # Landing
 
-A Browny-inspired single-page portfolio landing ready to deploy on GitHub Pages.
+一頁式數位行銷作品集，風格參考 Browny Demo，並預設部署至 GitHub Pages。
 
-## Local preview
+## 本機預覽
 
-Open `index.html` in your browser or use a simple static file server such as:
+直接開啟 `index.html` 或啟動簡易靜態伺服器：
 
 ```bash
 python -m http.server 8000
 ```
 
-Then visit http://localhost:8000.
+接著造訪 http://localhost:8000。
 
-## Deployment
+## 部署
 
-GitHub Actions will publish the site to GitHub Pages on every push to the `work` branch using [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+GitHub Actions 會在 `work` 分支每次推送時透過 [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) 發布至 GitHub Pages。
 
-1. In the repository settings, enable GitHub Pages with the "GitHub Actions" source.
-2. Push to `work` (or trigger the workflow manually). Pages will deploy to the `github-pages` environment with the URL reported in the workflow summary.
+1. 在 repo 設定中啟用 GitHub Pages，來源選擇「GitHub Actions」。
+2. 推送到 `work`（或手動觸發 workflow）。頁面會部署到 `github-pages` 環境，網址會顯示在工作流程摘要。
